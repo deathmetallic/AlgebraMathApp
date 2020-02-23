@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="statusBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="statusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 439</value>
+  </data>
+  <data name="statusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>964, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="statusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="statusBar.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Name" xml:space="preserve">
+    <value>statusBar</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="menuBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>133, 17</value>
+  </metadata>
+  <data name="menuBar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 11.25pt</value>
+  </data>
+  <data name="menuFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="menuFile.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="menuFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 46</value>
+  </data>
+  <data name="menuFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="smenuOptionsAppSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 24</value>
+  </data>
+  <data name="smenuOptionsAppSettings.Text" xml:space="preserve">
+    <value>Application Settings...</value>
+  </data>
+  <data name="menuOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="menuOptions.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="menuOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 46</value>
+  </data>
+  <data name="menuOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="menuHelp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="menuHelp.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="menuHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 46</value>
+  </data>
+  <data name="menuHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="searchFormulaBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchFormulaBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="searchFormulaBox.MaxLength" type="System.Int32, mscorlib">
+    <value>500</value>
+  </data>
+  <data name="searchFormulaBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="searchFormulaBox.Text" xml:space="preserve">
+    <value>Find a formula...</value>
+  </data>
+  <data name="menuBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>964, 49</value>
+  </data>
+  <data name="menuBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuBar.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Name" xml:space="preserve">
+    <value>menuBar</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="smenuFileExit.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+X</value>
+  </data>
+  <data name="smenuFileExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 24</value>
+  </data>
+  <data name="smenuFileExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="smenuHelpCalcHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 24</value>
+  </data>
+  <data name="smenuHelpCalcHelp.Text" xml:space="preserve">
+    <value>Calculator Help...</value>
+  </data>
+  <data name="smenuHelpAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 24</value>
+  </data>
+  <data name="smenuHelpAbout.Text" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="PrimaryTabs.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>FlatButtons</value>
+  </data>
+  <data name="&gt;&gt;textWelcomeDetails.Name" xml:space="preserve">
+    <value>textWelcomeDetails</value>
+  </data>
+  <data name="&gt;&gt;textWelcomeDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textWelcomeDetails.Parent" xml:space="preserve">
+    <value>tabHome</value>
+  </data>
+  <data name="&gt;&gt;textWelcomeDetails.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textWelcome.Name" xml:space="preserve">
+    <value>textWelcome</value>
+  </data>
+  <data name="&gt;&gt;textWelcome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textWelcome.Parent" xml:space="preserve">
+    <value>tabHome</value>
+  </data>
+  <data name="&gt;&gt;textWelcome.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabHome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="tabHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 41</value>
+  </data>
+  <data name="tabHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>715, 339</value>
+  </data>
+  <data name="tabHome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="&gt;&gt;tabHome.Name" xml:space="preserve">
+    <value>tabHome</value>
+  </data>
+  <data name="&gt;&gt;tabHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabHome.Parent" xml:space="preserve">
+    <value>PrimaryTabs</value>
+  </data>
+  <data name="&gt;&gt;tabHome.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="stabGenGeometry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="stabGenGeometry.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="stabGenGeometry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>707, 306</value>
+  </data>
+  <data name="stabGenGeometry.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="stabGenGeometry.Text" xml:space="preserve">
+    <value>Geometry</value>
+  </data>
+  <data name="&gt;&gt;stabGenGeometry.Name" xml:space="preserve">
+    <value>stabGenGeometry</value>
+  </data>
+  <data name="&gt;&gt;stabGenGeometry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabGenGeometry.Parent" xml:space="preserve">
+    <value>stabGen</value>
+  </data>
+  <data name="&gt;&gt;stabGenGeometry.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="stabGenPhysics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="stabGenPhysics.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="stabGenPhysics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 202</value>
+  </data>
+  <data name="stabGenPhysics.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="stabGenPhysics.Text" xml:space="preserve">
+    <value>Physics</value>
+  </data>
+  <data name="&gt;&gt;stabGenPhysics.Name" xml:space="preserve">
+    <value>stabGenPhysics</value>
+  </data>
+  <data name="&gt;&gt;stabGenPhysics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabGenPhysics.Parent" xml:space="preserve">
+    <value>stabGen</value>
+  </data>
+  <data name="&gt;&gt;stabGenPhysics.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="stabGen.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="stabGen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="stabGen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="stabGen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="stabGen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>715, 339</value>
+  </data>
+  <data name="stabGen.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;stabGen.Name" xml:space="preserve">
+    <value>stabGen</value>
+  </data>
+  <data name="&gt;&gt;stabGen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabGen.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;stabGen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 41</value>
+  </data>
+  <data name="tabGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>715, 339</value>
+  </data>
+  <data name="tabGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabGeneral.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Name" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Parent" xml:space="preserve">
+    <value>PrimaryTabs</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="stabFuncsLinear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="stabFuncsLinear.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="stabFuncsLinear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>701, 300</value>
+  </data>
+  <data name="stabFuncsLinear.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="stabFuncsLinear.Text" xml:space="preserve">
+    <value>Linear</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsLinear.Name" xml:space="preserve">
+    <value>stabFuncsLinear</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsLinear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsLinear.Parent" xml:space="preserve">
+    <value>stabFuncs</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsLinear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="stabFuncsQuadratic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="stabFuncsQuadratic.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="stabFuncsQuadratic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 258</value>
+  </data>
+  <data name="stabFuncsQuadratic.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="stabFuncsQuadratic.Text" xml:space="preserve">
+    <value>Quadratic</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsQuadratic.Name" xml:space="preserve">
+    <value>stabFuncsQuadratic</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsQuadratic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsQuadratic.Parent" xml:space="preserve">
+    <value>stabFuncs</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsQuadratic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="stabFuncs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="stabFuncs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="stabFuncs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="stabFuncs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="stabFuncs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>709, 333</value>
+  </data>
+  <data name="stabFuncs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;stabFuncs.Name" xml:space="preserve">
+    <value>stabFuncs</value>
+  </data>
+  <data name="&gt;&gt;stabFuncs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabFuncs.Parent" xml:space="preserve">
+    <value>tabFuncs</value>
+  </data>
+  <data name="&gt;&gt;stabFuncs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabFuncs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 41</value>
+  </data>
+  <data name="tabFuncs.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabFuncs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>715, 339</value>
+  </data>
+  <data name="tabFuncs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabFuncs.Text" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="&gt;&gt;tabFuncs.Name" xml:space="preserve">
+    <value>tabFuncs</value>
+  </data>
+  <data name="&gt;&gt;tabFuncs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabFuncs.Parent" xml:space="preserve">
+    <value>PrimaryTabs</value>
+  </data>
+  <data name="&gt;&gt;tabFuncs.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabGraphing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 41</value>
+  </data>
+  <data name="tabGraphing.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabGraphing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>715, 339</value>
+  </data>
+  <data name="tabGraphing.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabGraphing.Text" xml:space="preserve">
+    <value>Graphing</value>
+  </data>
+  <data name="&gt;&gt;tabGraphing.Name" xml:space="preserve">
+    <value>tabGraphing</value>
+  </data>
+  <data name="&gt;&gt;tabGraphing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabGraphing.Parent" xml:space="preserve">
+    <value>PrimaryTabs</value>
+  </data>
+  <data name="&gt;&gt;tabGraphing.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 41</value>
+  </data>
+  <data name="tabMore.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>715, 339</value>
+  </data>
+  <data name="tabMore.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabMore.Text" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="&gt;&gt;tabMore.Name" xml:space="preserve">
+    <value>tabMore</value>
+  </data>
+  <data name="&gt;&gt;tabMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabMore.Parent" xml:space="preserve">
+    <value>PrimaryTabs</value>
+  </data>
+  <data name="&gt;&gt;tabMore.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PrimaryTabs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PrimaryTabs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="PrimaryTabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PrimaryTabs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="PrimaryTabs.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>30, 5</value>
+  </data>
+  <data name="tpanelMainUI.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tpanelMainUI.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textInformationPanel.Name" xml:space="preserve">
+    <value>textInformationPanel</value>
+  </data>
+  <data name="&gt;&gt;textInformationPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textInformationPanel.Parent" xml:space="preserve">
+    <value>tpanelMainUI</value>
+  </data>
+  <data name="&gt;&gt;textInformationPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tpanelMainUI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="tpanelMainUI.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpanelMainUI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>964, 384</value>
+  </data>
+  <data name="tpanelMainUI.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tpanelMainUI.Name" xml:space="preserve">
+    <value>tpanelMainUI</value>
+  </data>
+  <data name="&gt;&gt;tpanelMainUI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpanelMainUI.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tpanelMainUI.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpanelMainUI.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="PrimaryTabs" Row="0" RowSpan="2" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="textInformationPanel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,75,Percent,25" /&gt;&lt;Rows Styles="Absolute,40,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="PrimaryTabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>723, 384</value>
+  </data>
+  <data name="PrimaryTabs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PrimaryTabs.Name" xml:space="preserve">
+    <value>PrimaryTabs</value>
+  </data>
+  <data name="&gt;&gt;PrimaryTabs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrimaryTabs.Parent" xml:space="preserve">
+    <value>tpanelMainUI</value>
+  </data>
+  <data name="&gt;&gt;PrimaryTabs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textInformationPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textInformationPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textInformationPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="textInformationPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>726, 0</value>
+  </data>
+  <data name="textInformationPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 7, 0, 7</value>
+  </data>
+  <data name="textInformationPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 39</value>
+  </data>
+  <data name="textInformationPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="textInformationPanel.Text" xml:space="preserve">
+    <value>Information Panel</value>
+  </data>
+  <data name="textInformationPanel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;textInformationPanel.Name" xml:space="preserve">
+    <value>textInformationPanel</value>
+  </data>
+  <data name="&gt;&gt;textInformationPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textInformationPanel.Parent" xml:space="preserve">
+    <value>tpanelMainUI</value>
+  </data>
+  <data name="&gt;&gt;textInformationPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textWelcome.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textWelcome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="textWelcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 18</value>
+  </data>
+  <data name="textWelcome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>534, 25</value>
+  </data>
+  <data name="textWelcome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textWelcome.Text" xml:space="preserve">
+    <value>Welcome to the Algebra Formulas and Calculators app
+</value>
+  </data>
+  <data name="&gt;&gt;textWelcome.Name" xml:space="preserve">
+    <value>textWelcome</value>
+  </data>
+  <data name="&gt;&gt;textWelcome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textWelcome.Parent" xml:space="preserve">
+    <value>tabHome</value>
+  </data>
+  <data name="&gt;&gt;textWelcome.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textWelcomeDetails.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textWelcomeDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 60</value>
+  </data>
+  <data name="textWelcomeDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>667, 248</value>
+  </data>
+  <data name="textWelcomeDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="textWelcomeDetails.Text" xml:space="preserve">
+    <value>Calculators: 
+To use the calculators pick the relevant category using the tabs above. Further categories will help you find the calculator you are looking for, at which point you can enter your values to get a result. 
+Some formulas may not have calculators, but will be explained in the Information panel.
+
+Formulas: 
+Each calculator will show the base formula that it uses. You can find more information about each formula in the Information Panel by clicking on the formula.
+
+Find a Formula:
+Use the "Find a Formula..." search box in the top right to search for formulas/calculators. 
+
+More formulas:
+We have added some basic algebraic formulas, and have more planned. If there is a formula missing that you think should be added, please create an issue on GitHub at: https://github.com/deathmetallic/AlgebraMathApp/issues/
+Please prefix your issue title with [Formula Request] and include the name of the formula, the category (physics, geometry, etc), what it is used for, and either an image of the formula or a link to a website that explains the formula in some detail.</value>
+  </data>
+  <data name="&gt;&gt;textWelcomeDetails.Name" xml:space="preserve">
+    <value>textWelcomeDetails</value>
+  </data>
+  <data name="&gt;&gt;textWelcomeDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textWelcomeDetails.Parent" xml:space="preserve">
+    <value>tabHome</value>
+  </data>
+  <data name="&gt;&gt;textWelcomeDetails.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>964, 461</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>980, 500</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Algebra Formulas and Calculators</value>
+  </data>
+  <data name="&gt;&gt;menuFile.Name" xml:space="preserve">
+    <value>menuFile</value>
+  </data>
+  <data name="&gt;&gt;menuFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smenuFileExit.Name" xml:space="preserve">
+    <value>smenuFileExit</value>
+  </data>
+  <data name="&gt;&gt;smenuFileExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuOptions.Name" xml:space="preserve">
+    <value>menuOptions</value>
+  </data>
+  <data name="&gt;&gt;menuOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smenuOptionsAppSettings.Name" xml:space="preserve">
+    <value>smenuOptionsAppSettings</value>
+  </data>
+  <data name="&gt;&gt;smenuOptionsAppSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuHelp.Name" xml:space="preserve">
+    <value>menuHelp</value>
+  </data>
+  <data name="&gt;&gt;menuHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smenuHelpCalcHelp.Name" xml:space="preserve">
+    <value>smenuHelpCalcHelp</value>
+  </data>
+  <data name="&gt;&gt;smenuHelpCalcHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smenuHelpAbout.Name" xml:space="preserve">
+    <value>smenuHelpAbout</value>
+  </data>
+  <data name="&gt;&gt;smenuHelpAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchFormulaBox.Name" xml:space="preserve">
+    <value>searchFormulaBox</value>
+  </data>
+  <data name="&gt;&gt;searchFormulaBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AlgebraUI</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

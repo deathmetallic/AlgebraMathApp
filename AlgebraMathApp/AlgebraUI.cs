@@ -46,5 +46,15 @@ namespace AlgebraMathApp
         {
 
         }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void menuOptions_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
