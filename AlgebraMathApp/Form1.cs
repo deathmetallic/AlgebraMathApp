@@ -10,11 +10,41 @@ using System.Windows.Forms;
 
 namespace AlgebraMathApp
 {
-    public partial class Form1 : Form
+    public partial class AlgebraUI : Form
     {
-        public Form1()
+        public AlgebraUI()
         {
             InitializeComponent();
+        }
+
+        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TopMenuOpened(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TopMenuClosed(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
