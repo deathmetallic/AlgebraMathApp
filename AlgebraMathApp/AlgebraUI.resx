@@ -152,6 +152,30 @@
   <data name="menuBar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Nirmala UI, 11.25pt</value>
   </data>
+  <data name="menuBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>964, 49</value>
+  </data>
+  <data name="menuBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuBar.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Name" xml:space="preserve">
+    <value>menuBar</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="menuFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -176,11 +200,15 @@
   <data name="menuFile.Text" xml:space="preserve">
     <value>File</value>
   </data>
-  <data name="smenuOptionsAppSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 24</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="smenuFileExit.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+X</value>
   </data>
-  <data name="smenuOptionsAppSettings.Text" xml:space="preserve">
-    <value>Application Settings...</value>
+  <data name="smenuFileExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 24</value>
+  </data>
+  <data name="smenuFileExit.Text" xml:space="preserve">
+    <value>Exit</value>
   </data>
   <data name="menuOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -206,6 +234,12 @@
   <data name="menuOptions.Text" xml:space="preserve">
     <value>Options</value>
   </data>
+  <data name="smenuOptionsAppSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 24</value>
+  </data>
+  <data name="smenuOptionsAppSettings.Text" xml:space="preserve">
+    <value>Application Settings...</value>
+  </data>
   <data name="menuHelp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -230,6 +264,18 @@
   <data name="menuHelp.Text" xml:space="preserve">
     <value>Help</value>
   </data>
+  <data name="smenuHelpCalcHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 24</value>
+  </data>
+  <data name="smenuHelpCalcHelp.Text" xml:space="preserve">
+    <value>Calculator Help...</value>
+  </data>
+  <data name="smenuHelpAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 24</value>
+  </data>
+  <data name="smenuHelpAbout.Text" xml:space="preserve">
+    <value>About...</value>
+  </data>
   <data name="searchFormulaBox.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -244,52 +290,6 @@
   </data>
   <data name="searchFormulaBox.Text" xml:space="preserve">
     <value>Find a formula...</value>
-  </data>
-  <data name="menuBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>964, 49</value>
-  </data>
-  <data name="menuBar.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="menuBar.Text" xml:space="preserve">
-    <value>toolStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuBar.Name" xml:space="preserve">
-    <value>menuBar</value>
-  </data>
-  <data name="&gt;&gt;menuBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuBar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuBar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="smenuFileExit.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Alt+X</value>
-  </data>
-  <data name="smenuFileExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 24</value>
-  </data>
-  <data name="smenuFileExit.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
-  <data name="smenuHelpCalcHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 24</value>
-  </data>
-  <data name="smenuHelpCalcHelp.Text" xml:space="preserve">
-    <value>Calculator Help...</value>
-  </data>
-  <data name="smenuHelpAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 24</value>
-  </data>
-  <data name="smenuHelpAbout.Text" xml:space="preserve">
-    <value>About...</value>
   </data>
   <data name="PrimaryTabs.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
     <value>FlatButtons</value>
@@ -345,78 +345,6 @@
   <data name="&gt;&gt;tabHome.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="stabGenGeometry.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
-  </data>
-  <data name="stabGenGeometry.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="stabGenGeometry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>707, 306</value>
-  </data>
-  <data name="stabGenGeometry.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="stabGenGeometry.Text" xml:space="preserve">
-    <value>Geometry</value>
-  </data>
-  <data name="&gt;&gt;stabGenGeometry.Name" xml:space="preserve">
-    <value>stabGenGeometry</value>
-  </data>
-  <data name="&gt;&gt;stabGenGeometry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;stabGenGeometry.Parent" xml:space="preserve">
-    <value>stabGen</value>
-  </data>
-  <data name="&gt;&gt;stabGenGeometry.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="stabGenPhysics.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
-  </data>
-  <data name="stabGenPhysics.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="stabGenPhysics.Size" type="System.Drawing.Size, System.Drawing">
-    <value>520, 202</value>
-  </data>
-  <data name="stabGenPhysics.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="stabGenPhysics.Text" xml:space="preserve">
-    <value>Physics</value>
-  </data>
-  <data name="&gt;&gt;stabGenPhysics.Name" xml:space="preserve">
-    <value>stabGenPhysics</value>
-  </data>
-  <data name="&gt;&gt;stabGenPhysics.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;stabGenPhysics.Parent" xml:space="preserve">
-    <value>stabGen</value>
-  </data>
-  <data name="&gt;&gt;stabGenPhysics.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="stabGen.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="stabGen.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="stabGen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="stabGen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="stabGen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>715, 339</value>
-  </data>
-  <data name="stabGen.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;stabGen.Name" xml:space="preserve">
     <value>stabGen</value>
   </data>
@@ -453,21 +381,6 @@
   <data name="&gt;&gt;tabGeneral.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="stabFuncsLinear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
-  </data>
-  <data name="stabFuncsLinear.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="stabFuncsLinear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>701, 300</value>
-  </data>
-  <data name="stabFuncsLinear.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="stabFuncsLinear.Text" xml:space="preserve">
-    <value>Linear</value>
-  </data>
   <data name="&gt;&gt;stabFuncsLinear.Name" xml:space="preserve">
     <value>stabFuncsLinear</value>
   </data>
@@ -479,21 +392,6 @@
   </data>
   <data name="&gt;&gt;stabFuncsLinear.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="stabFuncsQuadratic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
-  </data>
-  <data name="stabFuncsQuadratic.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="stabFuncsQuadratic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>477, 258</value>
-  </data>
-  <data name="stabFuncsQuadratic.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="stabFuncsQuadratic.Text" xml:space="preserve">
-    <value>Quadratic</value>
   </data>
   <data name="&gt;&gt;stabFuncsQuadratic.Name" xml:space="preserve">
     <value>stabFuncsQuadratic</value>
@@ -696,6 +594,114 @@
   <data name="&gt;&gt;PrimaryTabs.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;stabGenGeometry.Name" xml:space="preserve">
+    <value>stabGenGeometry</value>
+  </data>
+  <data name="&gt;&gt;stabGenGeometry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabGenGeometry.Parent" xml:space="preserve">
+    <value>stabGen</value>
+  </data>
+  <data name="&gt;&gt;stabGenGeometry.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;stabGenPhysics.Name" xml:space="preserve">
+    <value>stabGenPhysics</value>
+  </data>
+  <data name="&gt;&gt;stabGenPhysics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabGenPhysics.Parent" xml:space="preserve">
+    <value>stabGen</value>
+  </data>
+  <data name="&gt;&gt;stabGenPhysics.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="stabGen.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="stabGen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="stabGen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="stabGen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="stabGen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>715, 339</value>
+  </data>
+  <data name="stabGen.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;stabGen.Name" xml:space="preserve">
+    <value>stabGen</value>
+  </data>
+  <data name="&gt;&gt;stabGen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabGen.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;stabGen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="stabGenGeometry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="stabGenGeometry.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="stabGenGeometry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>707, 306</value>
+  </data>
+  <data name="stabGenGeometry.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="stabGenGeometry.Text" xml:space="preserve">
+    <value>Geometry</value>
+  </data>
+  <data name="&gt;&gt;stabGenGeometry.Name" xml:space="preserve">
+    <value>stabGenGeometry</value>
+  </data>
+  <data name="&gt;&gt;stabGenGeometry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabGenGeometry.Parent" xml:space="preserve">
+    <value>stabGen</value>
+  </data>
+  <data name="&gt;&gt;stabGenGeometry.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="stabGenPhysics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="stabGenPhysics.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="stabGenPhysics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 202</value>
+  </data>
+  <data name="stabGenPhysics.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="stabGenPhysics.Text" xml:space="preserve">
+    <value>Physics</value>
+  </data>
+  <data name="&gt;&gt;stabGenPhysics.Name" xml:space="preserve">
+    <value>stabGenPhysics</value>
+  </data>
+  <data name="&gt;&gt;stabGenPhysics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabGenPhysics.Parent" xml:space="preserve">
+    <value>stabGen</value>
+  </data>
+  <data name="&gt;&gt;stabGenPhysics.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="textInformationPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -733,6 +739,60 @@
     <value>tpanelMainUI</value>
   </data>
   <data name="&gt;&gt;textInformationPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="stabFuncsLinear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="stabFuncsLinear.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="stabFuncsLinear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>701, 300</value>
+  </data>
+  <data name="stabFuncsLinear.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="stabFuncsLinear.Text" xml:space="preserve">
+    <value>Linear</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsLinear.Name" xml:space="preserve">
+    <value>stabFuncsLinear</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsLinear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsLinear.Parent" xml:space="preserve">
+    <value>stabFuncs</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsLinear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="stabFuncsQuadratic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="stabFuncsQuadratic.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="stabFuncsQuadratic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>477, 258</value>
+  </data>
+  <data name="stabFuncsQuadratic.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="stabFuncsQuadratic.Text" xml:space="preserve">
+    <value>Quadratic</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsQuadratic.Name" xml:space="preserve">
+    <value>stabFuncsQuadratic</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsQuadratic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsQuadratic.Parent" xml:space="preserve">
+    <value>stabFuncs</value>
+  </data>
+  <data name="&gt;&gt;stabFuncsQuadratic.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="textWelcome.AutoSize" type="System.Boolean, mscorlib">
