@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.OleDb;
 using System.Windows.Forms;
 
 
@@ -137,5 +138,47 @@ public class AlgebraUIclass
         float[] y = { };
         float[] z = { };
 
+    }
+
+    // WIP - read the formulas table from algDB accdb and display the values. 
+    class Program
+    {
+        static void getFormulas()
+        {
+            // from https://stackoverflow.com/questions/11747761/added-a-new-class-to-my-project-and-get-error-say-program-main-has-more-than-o
+
+            // Connection string and SQL query  
+            string connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=resource/algDB.accdb";
+            string strSQL = "SELECT * FROM formulas";
+            // Create a connection  
+            using (OleDbConnection connection = new OleDbConnection(connectionString))
+            {
+                // Create a command and set its connection  
+                OleDbCommand command = new OleDbCommand(strSQL, connection);
+                // Open the connection and execute the select command.  
+                try
+                {
+                    // Open connecton  
+                    connection.Open();
+                    // Execute command  
+                    using (OleDbDataReader reader = command.ExecuteReader())
+                    {
+                        Console.WriteLine("------------Original data----------------");
+                        while (reader.Read())
+                        {
+                            Console.WriteLine("{0} {1}", reader["FID"].ToString(), reader["fName"].ToString());
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                // The connection is automatically closed becasuse of using block.  
+            }
+            Console.ReadKey();
+
+            //end from https://stackoverflow.com/questions/11747761/added-a-new-class-to-my-project-and-get-error-say-program-main-has-more-than-o
+        }
     }
 }
